@@ -6,7 +6,7 @@ var fs = require('fs');
 const Client = require('kubernetes-client').Client;
 const config = require('kubernetes-client').config;
 
-const client = new Client({ config: config.fromKubeconfig(), version: '1.13' });
+// const client = new Client({ config: config.fromKubeconfig(), version: '1.13' });
 
 
 
